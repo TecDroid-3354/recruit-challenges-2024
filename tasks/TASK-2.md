@@ -15,9 +15,9 @@ If `b == 0` then your division output must be `undefined`.
 ### Samples
 | Input | Output |
 | ---- | ---- |
-| ```<br>1 2<br>``` | ```<br>1 + 2 = 3<br>1 - 2 = -1<br>1 * 2 = 2<br>1 / 2 = 0.5<br>``` |
-| ```<br>-5 6<br>``` | ```<br>-5 + 6 = 1<br>-5 - 6 = -11<br>-5 * 6 = -30<br>-5 / 6 = -0.8333333<br>``` |
-| ```<br>3 0<br>``` | ```<br>3 + 0 = 3<br>3 - 0 = 3<br>3 * 0 = 0<br>3 / 0 = undefined<br>``` |
+| <br>`1 2`<br> | `1 + 2 = 3`<br>`1 - 2 = -1`<br>`1 * 2 = 2`<br>`1 / 2 = 0.5` |
+| <br>`-5 6`<br> | `-5 + 6 = 1`<br>`-5 - 6 = -11`<br>`-5 * 6 = -30`<br>`-5 / 6 = -0.8333333`<br> |
+| `3 0` | `3 + 0 = 3`<br>`3 - 0 = 3`<br>`3 * 0 = 0`<br>`3 / 0 = undefined` |
 
 ### Input Specifications
 | Input Type or Name | Spec |

@@ -13,7 +13,7 @@ In this task, you must create a program that prints "Hello, world" to the consol
 ### Samples
 | Input | Output |
 | ---- | ---- |
-| ```<br>#None<br>``` | ```<br>Hello, world<br>``` |
+| `#None` | `Hello, world` |
 
 ### Input
 | Input Type or Name | Spec |
