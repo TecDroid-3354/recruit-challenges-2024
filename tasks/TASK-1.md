@@ -15,16 +15,6 @@ In this task, you must create a program that prints "Hello, world" to the consol
 | ---- | ---- |
 | `#None` | `Hello, world` |
 
-### Input
-| Input Type or Name | Spec |
-| ---- | ---- |
-
-### Output
-| Spec | Spec |
-| ---- | ---- |
-| Executable SIze | < 5MB |
-| Execution Time | < 1s |
-
 ### Rubric
 | Criterion | Excellent | Expected | Lacking |
 | ---- | ---- | ---- | ---- |

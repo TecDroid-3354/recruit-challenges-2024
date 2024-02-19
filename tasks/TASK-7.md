@@ -1,5 +1,5 @@
 # STEAM Scholarship Challenge | TecDroid 3354
-## Task  #5: Fast Fibonacci Sequence
+## Task  #7: Fast Fibonacci Sequence
 ### Metadata
 | Spec | Value |
 | ---- | ---- |
