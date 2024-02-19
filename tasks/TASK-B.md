@@ -47,8 +47,8 @@ Ideally, the least number of steps to get from $A$ to $B$ is of $8$ steps.
 ### Input Specifications
 | Input Type or Name | Spec |
 | ---- | ---- |
-| $n, m, l$ | $1 \leq n \leq 10^3$<br>$1 \leq m \leq 10^3$<br>$1 \leq l \leq 10^3$ |
-| $O$ | $1 \leq O < 10^6$ |
+| $n, m, l$ | $1 \leq n \leq 10^3, n \in \mathbb{Z}$<br>$1 \leq m \leq 10^3, m \in \mathbb{Z}$<br>$1 \leq l \leq 10^3, l \in \mathbb{Z}$ |
+| $O$ | $1 \leq O < 10^6, O \in \mathbb{Z}$ |
 
 
 ### Rubric

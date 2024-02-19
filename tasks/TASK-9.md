@@ -7,8 +7,8 @@
 | Max Worth | 25 points |
 | Language Bonus | C++ (+2 pts) |
 
-You will be given an integer number `n`, followed by an array `A` of `n` integer numbers.
-After that, you will be given an integer number `m`, followed by an array `P` of `m` integer numbers.
+You will be given an integer number $n$, followed by an array $A$ of $n$ integer numbers.
+After that, you will be given an integer number $m$, followed by an array $P$ of $m$ integer numbers.
 
 Now, let us define two things:
 - A **sequence** is a set of patterns
@@ -56,16 +56,16 @@ Here, the pattern is matched twice:
 ### Samples
 | Input | Output |
 | ---- | ---- |
-| `6`<br>`3, 4, 3, 2, 0, -1`<br>`2`<br>`1,-1` | `2` |
-| `4`<br>`9, 4, 1, 1`<br>`2`<br>`5, 2` | `0` |
-| `6`<br>`0, -1, 1, 0, 0, 0`<br>`3`<br>`-1, 2, -1, 0` | `1` |
+| `6 3, 4, 3, 2, 0, -1 2 1,-1` | `2` |
+| `4 9, 4, 1, 1 2 5, 2` | `0` |
+| `6 0, -1, 1, 0, 0, 0 3 -1, 2, -1, 0` | `1` |
 
 ### Input Specifications
 | Input Type or Name | Spec |
 | ---- | ---- |
-| Count `n` | $1 < n < 10^6$ |
-| Count `m` | $1 < m < 100$ |
-| Element value `E` in the arrays | $-2147483648 < E < 2147483647$ |
+| Count $n$ | $1 \leq n \leq 10^{6}, n \in \mathbb{Z}$ |
+| Count $m$ | $1 \leq m \leq 100, m \in \mathbb{Z}$ |
+| Elements $E_{i}$ | $-10^{6} \leq E_{i} \leq 10^{6}, E_{i} \in \mathbb{Z}$ |
 
 ### Rubric
 | Criterion | Excellent | Expected | Lacking |

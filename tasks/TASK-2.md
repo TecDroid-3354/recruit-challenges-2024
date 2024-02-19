@@ -8,7 +8,7 @@
 | Max Worth | 8 points |
 | Language Bonus | None |
 
-In this task, you must create a program that receives two floating-point numbers `a` and `b` from the user. The program must then output the value for adding, subtracting, multiplying and dividing them together.
+In this task, you must create a program that receives two floating-point numbers $a$ and $b$ from the user. The program must then output the value for adding, subtracting, multiplying and dividing them together.
 
 > [!IMPORTANT]
 If $b=0$ then your division output must be `undefined`.
@@ -23,8 +23,8 @@ If $b=0$ then your division output must be `undefined`.
 ### Input Specifications
 | Input Type or Name | Spec |
 | ---- | ---- |
-| Number `a` | $2.2250738585072014E-308 < a < 1.79769313486231570e+308$ |
-| Number `b` | $2.2250738585072014E-308 < b < 1.79769313486231570e+308$ |
+| Number $a$ | $-10^{17} < a < 10^{17}, a \in \mathbb{R}$ |
+| Number $b$ | $-10^{17} < b < 10^{17}, b \in \mathbb{R}$ |
 
 ### Rubric
 | Criterion | Excellent | Expected | Lacking |

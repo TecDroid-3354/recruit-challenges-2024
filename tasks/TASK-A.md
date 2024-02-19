@@ -110,12 +110,12 @@ Step 10
 ### Input Specifications
 | Input Type or Name | Spec |
 | ---- | ---- |
-| Count $r$ | $1 \leq r \leq 10^6$ |
-| Position  $p$ | $1 \leq p \leq r$ |
+| Count $r$ | $1 \leq r \leq 10^6, r \in \mathbb{Z}$ |
+| Position  $p$ | $1 \leq p \leq r, p \in \mathbb{Z}$ |
 | Element count in $N$ | $\|N\| = r$ |
-| Max value of $N_{i}$ | $1 \leq N_{i} \leq 10^3$ |
-| Element count in $M$ | $M = N_{i}$ |
-| Max value of $M_{j}$ | $1 \leq M_{j} \leq \sum_{0}^{i}N_{i}$ |
+| Max value of $N_{i}$ | $1 \leq N_{i} \leq 10^3, N_{i} \in \mathbb{Z}$ |
+| Element count in $M$ | $\|M\| = N_{i}$ |
+| Max value of $M_{j}$ | $1 \leq M_{j} \leq \sum_{1}^{i}N_{i}, M_{j} \in \mathbb{Z}$ |
 
 ### Rubric
 | Criterion | Excellent | Expected | Lacking |

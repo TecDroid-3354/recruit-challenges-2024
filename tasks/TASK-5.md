@@ -7,11 +7,11 @@
 | Max Worth | 10 points |
 | Language Bonus | None |
 
-You will be given an integer number `n`, followed by an **ordered** set `S` of `n` integer numbers
-After that, you will be given a number `v`. You must determine the following:
+You will be given an integer number $n$, followed by an **ordered** set $S$ of $n$ integer numbers
+After that, you will be given a number $v$. You must determine the following:
 
-- If `v` is within the elements in `S`, then print its index
-- If `v` is not within the elements in `S`, then print the index of where it would be if it were to be inserted **in a sorted manner**
+- If $v$ is within the elements in $S$, then print its index
+- If $v$ is not within the elements in $S$, then print the index of where it would be if it were to be inserted **in a sorted manner**
 
 > [!NOTE]
 If the language you are using starts indexing at `1` instead of `0`, Please make sure to perform the necessary modifications to match the samples.
@@ -19,17 +19,17 @@ If the language you are using starts indexing at `1` instead of `0`, Please make
 ### Samples
 | Input | Output |
 | ---- | ---- |
-| `4`<br>`1 3 5 6`<br>`5` | `2` |
-| `4`<br>`1 3 5 6`<br>`2` | `1` |
-| `4`<br>`1 3 5 6`<br>`7` | `4` |
-
+| `4 1 3 5 6 5` | `2` |
+| `4 1 3 5 6 2` | `1` |
+| `4 1 3 5 6 7` | `4` |
 
 ### Input Specifications
 | Input Type or Name | Spec |
 | ---- | ---- |
-| Count `n` | $1 < n < 10^6$ |
-| Elements `E` | $-2147483648 < E < 2147483647$ |
-| Element `v` | $-2147483648 < v < 2147483647$ |
+| Count `n` | $1 \leq n \leq 10^{6}, n \in \mathbb{Z}$ |
+| Size of $S$ | $\|S\| = n$ |
+| Max value of $S_{i}$ | $-10^{6} < S_{i} < 10^{6}, S_{i} \in \mathbb{Z}$ |
+| Target $v$ | $-10^{6} \leq v \leq 10^{6}, v \in \mathbb{Z}$ |
 
 ### Rubric
 | Criterion | Excellent | Expected | Lacking |

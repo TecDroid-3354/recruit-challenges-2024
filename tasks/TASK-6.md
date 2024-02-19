@@ -7,7 +7,7 @@
 | Max Worth | 16 points |
 | Language Bonus | Haskell (+1 pts), Julia (+1 pts) |
 
-You will be given a number `n` and you must calculate the `n`<sup>th</sup> Fibonacci number.
+You will be given a number $n$ and you must calculate the $n^{th}$ Fibonacci number.
 
 > [!CAUTION]
 > If your program times out **then your answer's *output* and *efficiency* will be marked as lacking.** That's the catch. (See rubric)
@@ -25,6 +25,7 @@ You will be given a number `n` and you must calculate the `n`<sup>th</sup> Fibon
 
 > [!TIP]
 > **Bonus (+3 pts)** 
+> 
 The program is recursive and still doesn't time out
 
 ### Samples
@@ -37,7 +38,7 @@ The program is recursive and still doesn't time out
 ### Input Specifications
 | Input Type or Name | Spec |
 | ---- | ---- |
-| Number `n` | $0 < n < 10^6$ |
+| Number $n$ | $0 \leq n \leq 10^6, n \in \mathbb{Z}$ |
 
 ### Output Specifications
 | Output Type or Name | Spec |

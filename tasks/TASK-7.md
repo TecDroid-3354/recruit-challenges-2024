@@ -7,11 +7,11 @@
 | Max Worth | 18 points |
 | Language Bonus | C (+2 pts), C++(+2pts), Kotlin (+1 pts) |
 
-You will be given an integer number `n`, followed by `n` sets of 4 values each. Each of these values will represent a vector in 3D space.
+You will be given an integer number $n$, followed by $n$ sets of $4$ values each. Each of these values will represent a vector in $\mathbb{R}^{3}$ (3D) space.
 
 Now, in linear algebra, there are three main ways to define a vector:
 #### From Cartesian Coordinates
-Built from 3 values $x$, $y$ and $z$
+Built from three values $x$, $y$ and $z$
 
 ![Cartesian Coordinates Example](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Coord_system_CA_0.svg/240px-Coord_system_CA_0.svg.png)
 
@@ -72,14 +72,15 @@ What you must do is parse all of the given vectors, turn them into Cartesian vec
 ### Samples
 | Input | Output |
 | ---- | ---- |
-| `2`<br>`'C' 1 4 6`<br>`'C' 7 -2 4` | `12.961 0.6896 0.245` |
-| `4`<br>`'C' 5 9 2.2`<br>`'s' 10, 1.5707 0.7853`<br>`'c' 5 0.13 2`<br>`'s' 1 1 1` | `25.137 1.381 0.7837` |
+| `2 'C' 1 4 6 'C' 7 -2 4` | `12.961 0.6896 0.245` |
+| `4 'C' 5 9 2.2 's' 10, 1.5707 0.7853 'c' 5 0.13 2 's' 1 1 1` | `25.137 1.381 0.7837` |
 
 ### Input Specifications
 | Input Type or Name | Spec |
 | ---- | ---- |
-| Number `n` | $0 < n < 10^6$ |
-| Vector components `v` | $-2147483648 < v < 2147483647$ |
+| Number $n$ | $0 < n < 10^6, n \in \mathbb{Z}$ |
+| Vector values ($\varphi, r, z, \theta, \rho$) | $-10^{6} \leq \varphi \leq 10^{6}, \varphi \in \mathbb{R}$<br>$-10^{6} \leq r \leq 10^{6}, r \in \mathbb{R}$<br>$-10^{6} \leq z \leq 10^{6}, z \in \mathbb{R}$<br>$-10^{6} \leq \theta \leq 10^{6}, \theta \in \mathbb{R}$<br>$-10^{6} \leq \rho \leq 10^{6}, \rho \in \mathbb{R}$ |
+| Unit of $\theta, \varphi$ | $Radians$ |
 
 ### Rubric
 | Criterion | Excellent | Expected | Lacking |

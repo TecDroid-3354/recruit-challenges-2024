@@ -7,13 +7,13 @@
 | Max Worth | 17 points |
 | Language Bonus | None |
 
-You will be given a number `n`, followed by `n` integer numbers. You must find all prime factors of each number and store them together **avoiding any duplicate values**
+You will be given a number $n$, followed by $n$ integer numbers. You must find all prime factors of each number and store them together **avoiding any duplicate values**
 
 You must them sum these values together. One that is done, take the prime factor of the result and repeat the previous process of taking the unique values, summing them and taking the prime values again.
 
 You must repeat this until there is a single prime factor left. You, then, must output how many times the previous operations were repeated (taking primes, filtering and adding)
 ### Example
-`15, 32, 57, 93`
+For the numbers `15, 32, 57, 93`
 - The prime factors of $15$ are $3, 5$
 - The prime factors of $32$ are $2, 2, 2, 2, 2$
 - The prime factors of $57$ are $3, 19$
@@ -32,15 +32,15 @@ Finally, the sum of the values in $\{2, 5\}$ is $7$. Taking the prime factors yi
 ### Samples
 | Input | Output |
 | ---- | ---- |
-| `36 65 23 53 54 11` | `4` |
-| `346381 352891 12367` | `6` |
-| `1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20` | `4` |
+| `6 36 65 23 53 54 11` | `4` |
+| `3 346381 352891 12367` | `6` |
+| `20 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20` | `4` |
 
 ### Input Specifications
 | Input Type or Name | Spec |
 | ---- | ---- |
-| Number `n` | $0 < n < 10^6$ |
-| Values `v` | $-2147483648 < v < 2147483647$ |
+| Number $n$ | $0 < n < 10^6$ |
+| Numeric values $v$ | $-10^{6} \leq v \leq 10^{6}, v \in \mathbb{Z}$ |
 
 ### Rubric
 | Criterion | Excellent | Expected | Lacking |

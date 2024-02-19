@@ -8,7 +8,7 @@
 | Max Worth | 6 points |
 | Language Bonus | None |
 
-In this task, you must create a program that prints "Hello, world" to the console. No more, no less.
+In this task, you must create a program that prints `"Hello, world"` to the console. No more, no less.
 
 ### Samples
 | Input | Output |
