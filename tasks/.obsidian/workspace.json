@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TASK-2.md",
+                "file": "TASK-6.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TASK-2.md",
+                "file": "TASK-6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TASK-2.md",
+                "file": "TASK-6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TASK-2.md"
+                "file": "TASK-6.md"
               }
             }
           },
@@ -138,11 +138,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,8 +158,12 @@
   },
   "active": "deb3adcd967c0093",
   "lastOpenFiles": [
-    "TASK-1.md",
+    "TASK-4.md",
+    "TASK-5.md",
+    "TASK-6.md",
+    "TASK-3.md",
     "TASK-2.md",
+    "TASK-1.md",
     "!DEFINITIONS.md"
   ]
 }
