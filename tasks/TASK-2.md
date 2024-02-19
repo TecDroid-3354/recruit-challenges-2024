@@ -23,8 +23,8 @@ If $b=0$ then your division output must be `undefined`.
 ### Input Specifications
 | Input Type or Name | Spec |
 | ---- | ---- |
-| Number `a` | 2.2250738585072014E-308 < `a` < 1.79769313486231570e+308 |
-| Number `b` | 2.2250738585072014E-308 < `b` < 1.79769313486231570e+308 |
+| Number `a` | $2.2250738585072014E-308 < a < 1.79769313486231570e+308$ |
+| Number `b` | $2.2250738585072014E-308 < b < 1.79769313486231570e+308$ |
 
 ### Rubric
 | Criterion | Excellent | Expected | Lacking |

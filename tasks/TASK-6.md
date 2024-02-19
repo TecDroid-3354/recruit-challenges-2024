@@ -4,7 +4,7 @@
 | Spec | Value |
 | ---- | ---- |
 | Difficulty | Medium |
-| Max Worth | 15 points |
+| Max Worth | 16 points |
 | Language Bonus | Haskell (+1 pts), Julia (+1 pts) |
 
 You will be given a number `n` and you must calculate the `n`<sup>th</sup> Fibonacci number.
@@ -48,7 +48,7 @@ The program is recursive and still doesn't time out
 | Criterion | Excellent | Expected | Lacking |
 | ---- | ---- | ---- | ---- |
 | Output OK | 2 | 1 | 1 |
-| Efficiency | 3 | 2 | 1 |
+| Efficiency | 4 | 2-3 | 1 |
 | No bugs | 2 | 1 | 0 |
 | No trivial mistakes | 2 | 1 | 0 |
 | Cleanliness | 3 | 1 - 2 | 0 |

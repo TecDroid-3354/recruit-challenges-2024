@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TASK-5.md",
+                "file": "TASK-10.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "009a3609143338a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TASK-11.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TASK-5.md",
+                "file": "TASK-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TASK-5.md",
+                "file": "TASK-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TASK-5.md"
+                "file": "TASK-11.md"
               }
             }
           },
@@ -138,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -156,17 +169,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "deb3adcd967c0093",
+  "active": "009a3609143338a5",
   "lastOpenFiles": [
-    "TASK-6.md",
-    "TASK-7.md",
-    "TASK-8.md",
+    "TASK-10.md",
     "TASK-9.md",
-    "TASK-5.md",
-    "TASK-3.md",
+    "TASK-8.md",
+    "TASK-7.md",
+    "TASK-6.md",
     "TASK-4.md",
+    "TASK-5.md",
     "TASK-2.md",
     "TASK-1.md",
+    "TASK-11.md",
+    "TASK-3.md",
     "!DEFINITIONS.md"
   ]
 }

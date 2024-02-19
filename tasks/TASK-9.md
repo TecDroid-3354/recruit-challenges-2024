@@ -1,5 +1,5 @@
 # STEAM Scholarship Challenge | TecDroid 3354
-## Task  #8: Pattern Delimitation
+## Task  #9: Pattern Delimitation
 ### Metadata
 | Spec | Value |
 | ---- | ---- |
@@ -70,9 +70,9 @@ Here, the pattern is matched twice:
 ### Rubric
 | Criterion | Excellent | Expected | Lacking |
 | ---- | ---- | ---- | ---- |
-| Output OK | 5 | 4 | 0 |
-| Efficiency | 4 | 2-3 | 1 |
+| Output OK | 2 | 1 | 0 |
+| Efficiency | 5 | 2-4 | 1 |
 | No bugs | 4 | 1-3 | 0 |
 | No trivial mistakes | 4 | 1-3 | 0 |
-| Cleanliness | 4 | 1-3 | 0 |
-| Readability | 4 | 1-3 | 0 |
+| Cleanliness | 5 | 1-4 | 0 |
+| Readability | 5 | 1-4 | 0 |
