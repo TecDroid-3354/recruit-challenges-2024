@@ -31,6 +31,7 @@ This means that if `P = [1, 2, 3]`, then you must find the sequence made from th
 `A = [1, 2, 3, 3, 3, 2, 1]`
 `P = [1, 0, -1]`
 `Result: 1`
+
 Here, the **sequence** $\{n + 1, n, n - 1\}$ is matched one time:
 - `1, 2, 3` is the first **pattern** which follows $n + 1$ because $P_{0} = 1$
 - `3, 3, 3` is the second **pattern**, $n$, arising from $P_{1} = 0$
@@ -41,6 +42,7 @@ Here, the **sequence** $\{n + 1, n, n - 1\}$ is matched one time:
 `A = [1, 3, 5, 4, 2, 0, 1, 5, 7, 9, 8]`
 `P = [2, -1]`
 `Result: 2`
+
 Here, the pattern is matched twice:
 - `1, 3, 5` is the first **pattern:** $n + 2$ because $P_{0} = 2$
 - `5, 4` is is the second **pattern:** $n - 1$ because $P_{1}=-1$
