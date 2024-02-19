@@ -13,13 +13,14 @@ If you're unfamiliar with this equation, one can solve for $x$ using the followi
 
 You must include the value of $x_1$ and $x_2$ if they exist as well as the solution count.
 
-### Tips
+> [!IMPORTANT]
 The quadratic formula may have $0$, $1$ or $2$ real solutions. Keep in mind that:
-- $b^{2} - 4ac > 0 \iff 2$ real solutions
-- $b^{2} - 4ac = 0 \iff 1$ real solution
-- $b^{2} - 4ac < 0 \iff 0$ real solutions
+>- $b^{2} - 4ac > 0 \iff 2$ real solutions
+>- $b^{2} - 4ac = 0 \iff 1$ real solution
+>- $b^{2} - 4ac < 0 \iff 0$ real solutions
 
-### Bonus (+1 pt)
+> [!TIP]
+**Bonus (+1 pt)**
 If $a = 0$ then solve for the only root in $bx + c$.
 
 ### Samples

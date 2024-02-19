@@ -11,7 +11,8 @@ You will be given **one** number `n`, and then you will be given `n` integer num
 
 You must remove every duplicate member from the array, leaving you only with unique values.
 
-### Bonus (+1 pt)
+> [!TIP]
+**Bonus (+1 pt)**
 Sort the array without using language built-ins
 
 ### Samples

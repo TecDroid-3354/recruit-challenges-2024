@@ -10,7 +10,8 @@
 
 In this task, you must create a program that receives two floating-point numbers `a` and `b` from the user. The program must then output the value for adding, subtracting, multiplying and dividing them together.
 
-If `b == 0` then your division output must be `undefined`.
+> [!IMPORTANT]
+If $b=0$ then your division output must be `undefined`.
 
 ### Samples
 | Input | Output |

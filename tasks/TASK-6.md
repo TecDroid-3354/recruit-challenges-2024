@@ -7,7 +7,7 @@
 | Max Worth | 16 points |
 | Language Bonus | C++ (+2 pts) |
 
-You will be given an integer number `n`, followed by an array `A` of `n` integer numbers
+You will be given an integer number `n`, followed by an array `A` of `n` integer numbers.
 Then, you will be given an integer number `m`, followed by an array `P` of `m` integer numbers.
 
 `P` will indicate a number pattern that could or could not be in `A` such that, for any number in `A`,  the next numbers will be a result of adding the numbers in pattern `P` an indefinite number of times.
@@ -34,7 +34,9 @@ Here, the pattern is matched twice:
 - The pattern repeats at `5, 7, 9, 8`
 - `5, 7, 9` is `n, n+2, n+4` and `P[0]` is `2`
 - `9, 8` is `n, n-1` and `P[1]` is `-1`
-	- Note that the amount of consecutive matches does not matter. You can have 5 numbers following the first index of the pattern and then just 2 following the second index
+
+> [!NOTE]
+> Note that the amount of consecutive matches does not matter. You can have 5 numbers following the first index of the pattern and then just 2 following the second index
 
 ### Samples
 | Input | Output |

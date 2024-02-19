@@ -13,7 +13,7 @@ After that, you will be given a number `v`. You must determine the following:
 - If `v` is within the elements in `S`, then print its index
 - If `v` is not within the elements in `S`, then print the index of where it would be if it were to be inserted **in a sorted manner**
 
-### Note
+> [!NOTE]
 If the language you are using starts indexing at `1` instead of `0`, Please make sure to perform the necessary modifications to match the samples.
 
 ### Samples
