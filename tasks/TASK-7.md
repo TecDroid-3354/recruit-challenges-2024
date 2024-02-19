@@ -22,8 +22,11 @@ Built from one distance $\rho$, one angle $\varphi$, and one height $z$
 
 When the reference plane is the $xy$-plane, a cylindrical vector may be converted to Cartesian coordinates through the following formulae:
 $x = \rho\cos(\varphi)$
+
 $y=\rho\cos(\varphi)$
+
 $z=z$
+
 #### From Cylindrical Coordinates
 Built from two angles $\theta, \varphi$ and one distance $r$
 
@@ -31,14 +34,19 @@ Built from two angles $\theta, \varphi$ and one distance $r$
 When using mathematical (not physical) conventions, one may convert a spherical vector to Cartesian coordinates through the following formulae:
 
 $x = r\sin(\theta)\cos(\varphi)$
+
 $y = r\sin(\theta)\sin(\varphi)$
+
 $z=r\cos(\theta)$
 
 You can also obtain spherical coordinates from Cartesian coordinates through:
 
 $r = \sqrt{x^{2} + y^{2} + z^{2}}$
+
 $\theta = \arccos{\frac{z}{r}}$
+
 $\varphi = \text{sgn}(y)\arccos{\frac{x}{\sqrt{x^{2} + y^{2}}}}$
+
 
 > [!NOTE]
 > The sum of two Cartesian vectors is simple. Just sum their components.
