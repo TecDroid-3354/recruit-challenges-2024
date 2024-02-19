@@ -14,17 +14,17 @@ You will be given a number `n` and you must calculate the `n`<sup>th</sup> Fibon
 > If your program times out **then your answer's *output* and *efficiency* will be marked as lacking.** That's the catch. (See rubric)
 
 > [!NOTE]
-**From Wikipedia:**
+**From Wikipedia:** 
 In mathematics, the **Fibonacci sequence** is a **sequence in which each number is the sum of the two preceding ones**. Numbers that are part of the Fibonacci sequence are known as Fibonacci numbers, commonly denoted $F_{n}$ . **The sequence commonly starts from 0 and 1**, although some authors start the sequence from 1 and 1 or sometimes (as did Fibonacci) from 1 and 2.
 >
-**Starting from 0 and 1, the sequence begins:**
-$0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, \ldots$
+> **Starting from 0 and 1, the sequence begins:**
+> $0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, \ldots$
 
 > [!IMPORTANT]
 >We will start from $0$ and $1$.
 
 > [!TIP]
-> **Bonus (+3 pts)**
+> **Bonus (+3 pts)** 
 The program is recursive and still doesn't time out
 
 ### Samples
