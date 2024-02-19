@@ -7,7 +7,7 @@
 | Max Worth | 18 points |
 | Language Bonus | C (+2 pts), C++(+2pts), Kotlin (+1 pts) |
 
-You will be given an integer number `n`, followed by `n` sets of 4 values each. Each of these values will represent a vector in 3D space in different ways.
+You will be given an integer number `n`, followed by `n` sets of 4 values each. Each of these values will represent a vector in 3D space.
 
 Now, in linear algebra, there are three main ways to define a vector:
 #### From Cartesian Coordinates
@@ -48,10 +48,6 @@ $\theta = \arccos{\frac{z}{r}}$
 $\varphi = \text{sgn}(y)\arccos{\frac{x}{\sqrt{x^{2} + y^{2}}}}$
 
 
-> [!NOTE]
-> The sum of two Cartesian vectors is simple. Just sum their components.
-> $<1, 4, 6> + <7, -2, 4> = <8, 2, 10>$
-
 Now, armed with this knowledge, for each of the 4 values you receive, **one will be a character** and **the rest will be floating point values**.
 - If the character is `'C'`, then you will receive Cartesian coordinates in the order $x, y, z$
 - If the character is `'c'`, then you will receive Cylindrical coordinates in the order $\rho, \varphi, z$
@@ -59,12 +55,16 @@ Now, armed with this knowledge, for each of the 4 values you receive, **one will
 
 ### Examples
 - `'C' 3 4 5` is the vector $<3, 4, 5>$ in Cartesian coordinates
-- `'c' 6 3.1415926 5` is the vector $<6, \pi_{R}, 5>$ in cylindrical coordinates
+- `'c' 6 3.1415926 5` is the vector $<6, \pi^{R}, 5>$ in cylindrical coordinates
 	- It is also $<-6, 0, 5>$ in Cartesian coordinates
 - `'s' 10 6 7` is the vector $<10, 6^{R}, 7^{R}>$ in spherical coordinates
 	- It is also $<1.04, 0.13, 9.95>$ in Cartesian coordinates
 
 What you must do is parse all of the given vectors, turn them into Cartesian vectors and sum them. Finally, you must output the resulting value **in spherical coordinates** in the order $r, \theta, \phi$
+
+> [!NOTE]
+> The sum of two Cartesian vectors is simple. Just sum their components.
+> $<1, 4, 6> + <7, -2, 4> = <8, 2, 10>$
 
 > [!WARNING]
 > All angle values are in radians
@@ -84,9 +84,9 @@ What you must do is parse all of the given vectors, turn them into Cartesian vec
 ### Rubric
 | Criterion | Excellent | Expected | Lacking |
 | ---- | ---- | ---- | ---- |
-| Output OK | 3 | 1-2 | 0 |
+| Output OK | 2 | 1 | 0 |
 | Efficiency | 4 | 1-3 | 0 |
 | No bugs | 2 | 1 | 0 |
 | No trivial mistakes | 3 | 1-2 | 0 |
 | Cleanliness | 3 | 1 - 2 | 0 |
-| Readability | 3 | 1 - 2 | 0 |
+| Readability | 4 | 1 - 2 | 0 |

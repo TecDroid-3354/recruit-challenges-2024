@@ -14,7 +14,8 @@ You will be given a number `n` and you must calculate the `n`<sup>th</sup> Fibon
 
 > [!NOTE]
 **From Wikipedia:** 
-In mathematics, the **Fibonacci sequence** is a **sequence in which each number is the sum of the two preceding ones**. Numbers that are part of the Fibonacci sequence are known as Fibonacci numbers, commonly denoted $F_{n}$ . **The sequence commonly starts from 0 and 1**, although some authors start the sequence from 1 and 1 or sometimes (as did Fibonacci) from 1 and 2.
+>
+>In mathematics, the **Fibonacci sequence** is a **sequence in which each number is the sum of the two preceding ones**. Numbers that are part of the Fibonacci sequence are known as Fibonacci numbers, commonly denoted $F_{n}$ . **The sequence commonly starts from 0 and 1**, although some authors start the sequence from 1 and 1 or sometimes (as did Fibonacci) from 1 and 2.
 >
 > **Starting from 0 and 1, the sequence begins:**
 > $0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, \ldots$
@@ -46,7 +47,7 @@ The program is recursive and still doesn't time out
 ### Rubric
 | Criterion | Excellent | Expected | Lacking |
 | ---- | ---- | ---- | ---- |
-| Output OK | 2 | 1-2 | 1 |
+| Output OK | 2 | 1 | 1 |
 | Efficiency | 3 | 2 | 1 |
 | No bugs | 2 | 1 | 0 |
 | No trivial mistakes | 2 | 1 | 0 |
