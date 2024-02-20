@@ -1,29 +1,11 @@
 # Steam Scholarship Challenges
-This repo contains a set of problems that candidates for the STEAM scholarship
-must solve!
+This repo contains 11 challenges to complete in order to gain points for the STEAM scholarship that our school offers.
 
-They are available in the following programming languages
-
-- Java
-- Kotlin
-- C
-- C++
-- JavaScript
-- TypeScript
-- Julia
-- Rust
-- Go
-- Haskell
-- Python
-- Ruby
-- Lua
-- R
-- ASM (x86_64)
-- Perl
-- Pascal
-- Fortran
-- Nim
-- Zig
+There are:
+- Two trivial problems
+- Three Low difficulty problems
+- Three Medium difficulty problems
+- Three Hard difficulty problems
 
 Last Update (Year): 2024
 
