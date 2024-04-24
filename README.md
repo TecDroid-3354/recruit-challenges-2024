@@ -67,12 +67,13 @@ You must be able to recreate the code of this season's robot, Playbot Carti, in 
 ### In order to apply to this position, complete the following challenges
 
 #### Challenge #1
-Meet us at our laboratory. You will be given a wooden plate along with several electronics components. You must wire a working tank-drive chassis. The code to test it has already been written for you. 
+Meet us at our laboratory. You will be given a wooden plate along with several electronics components. You must wire a working tank-drive chassis. The code to test it has already been written for you.
+
+#### Challenge #2
+You must create a custom circuit board as a CAD model which aids in connecting CAN bus terminals, meaning: it has to be sequential and have several non-primary inputs. Includes primary input (RoboRIO) and priamry output (PDP or PDH)
 
 # Submission
 In order to submit your challenges, send an e-mail to ayimanymooncat@gmail.com containing your full name, desired position and chalenge progress.
 
 This task is a rather simple one for the people already in the board of directors and thus **you shall receive no trival help for this task**. Complex topics are up for discussion.
 
-#### Challenge #2
-You must create a custom circuit board as a CAD model which aids in connecting CAN bus terminals, meaning: it has to be sequential and have several non-primary inputs. Includes primary input (RoboRIO) and priamry output (PDP or PDH)
